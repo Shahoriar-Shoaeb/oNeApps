@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+* {
+    background-color: white;
+    color: black; /* optional, ensures text is visible */
+  }
+  

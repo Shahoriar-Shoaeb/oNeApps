@@ -1,0 +1,273 @@
+[
+    {
+      "image": "https://example.com/images/app1.png",
+      "title": "ChatFlow",
+      "companyName": "TechVerse Ltd",
+      "id": 1,
+      "description": "An AI-powered chat app that learns your preferences and helps you communicate faster.",
+      "size": 52,
+      "reviews": 13450,
+      "ratingAvg": 4.5,
+      "downloads": 1200000,
+      "ratings": [
+        { "name": "1 star", "count": 420 },
+        { "name": "2 star", "count": 710 },
+        { "name": "3 star", "count": 1200 },
+        { "name": "4 star", "count": 3500 },
+        { "name": "5 star", "count": 9620 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app2.png",
+      "title": "FitTrack Pro",
+      "companyName": "Healthify Labs",
+      "id": 2,
+      "description": "Track workouts, meals, and progress with AI suggestions for a healthier lifestyle.",
+      "size": 80,
+      "reviews": 8750,
+      "ratingAvg": 4.2,
+      "downloads": 950000,
+      "ratings": [
+        { "name": "1 star", "count": 630 },
+        { "name": "2 star", "count": 870 },
+        { "name": "3 star", "count": 1400 },
+        { "name": "4 star", "count": 3100 },
+        { "name": "5 star", "count": 4950 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app3.png",
+      "title": "Snapify Camera",
+      "companyName": "VisionWorks",
+      "id": 3,
+      "description": "Capture stunning photos and videos with advanced AI filters and effects.",
+      "size": 110,
+      "reviews": 22500,
+      "ratingAvg": 4.8,
+      "downloads": 5000000,
+      "ratings": [
+        { "name": "1 star", "count": 700 },
+        { "name": "2 star", "count": 900 },
+        { "name": "3 star", "count": 1800 },
+        { "name": "4 star", "count": 4800 },
+        { "name": "5 star", "count": 14300 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app4.png",
+      "title": "EduMate",
+      "companyName": "LearnUp Co.",
+      "id": 4,
+      "description": "An e-learning app offering personalized lessons, quizzes, and progress tracking.",
+      "size": 67,
+      "reviews": 6200,
+      "ratingAvg": 4.1,
+      "downloads": 680000,
+      "ratings": [
+        { "name": "1 star", "count": 500 },
+        { "name": "2 star", "count": 820 },
+        { "name": "3 star", "count": 950 },
+        { "name": "4 star", "count": 2200 },
+        { "name": "5 star", "count": 1730 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app5.png",
+      "title": "Taskly",
+      "companyName": "Productive Minds",
+      "id": 5,
+      "description": "Organize tasks, set reminders, and collaborate on projects seamlessly.",
+      "size": 45,
+      "reviews": 10100,
+      "ratingAvg": 4.4,
+      "downloads": 1400000,
+      "ratings": [
+        { "name": "1 star", "count": 350 },
+        { "name": "2 star", "count": 700 },
+        { "name": "3 star", "count": 1300 },
+        { "name": "4 star", "count": 3200 },
+        { "name": "5 star", "count": 4550 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app6.png",
+      "title": "TuneBeat",
+      "companyName": "SonicWave Studios",
+      "id": 6,
+      "description": "Stream and download millions of songs with personalized playlists and recommendations.",
+      "size": 95,
+      "reviews": 56000,
+      "ratingAvg": 4.7,
+      "downloads": 8700000,
+      "ratings": [
+        { "name": "1 star", "count": 2100 },
+        { "name": "2 star", "count": 2600 },
+        { "name": "3 star", "count": 4000 },
+        { "name": "4 star", "count": 11500 },
+        { "name": "5 star", "count": 34800 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app7.png",
+      "title": "FoodEase",
+      "companyName": "QuickEats Ltd.",
+      "id": 7,
+      "description": "Order food from nearby restaurants with fast delivery and discounts.",
+      "size": 70,
+      "reviews": 33000,
+      "ratingAvg": 4.3,
+      "downloads": 4600000,
+      "ratings": [
+        { "name": "1 star", "count": 1400 },
+        { "name": "2 star", "count": 1900 },
+        { "name": "3 star", "count": 3400 },
+        { "name": "4 star", "count": 9400 },
+        { "name": "5 star", "count": 16900 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app8.png",
+      "title": "TravelMate",
+      "companyName": "Wanderlust Inc.",
+      "id": 8,
+      "description": "Plan trips, find hotels, and explore attractions with real-time travel tips.",
+      "size": 120,
+      "reviews": 12500,
+      "ratingAvg": 4.0,
+      "downloads": 2100000,
+      "ratings": [
+        { "name": "1 star", "count": 800 },
+        { "name": "2 star", "count": 1100 },
+        { "name": "3 star", "count": 2500 },
+        { "name": "4 star", "count": 4000 },
+        { "name": "5 star", "count": 4100 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app9.png",
+      "title": "NoteCraft",
+      "companyName": "Paperless Studio",
+      "id": 9,
+      "description": "A minimalist note-taking app with markdown support and cloud sync.",
+      "size": 33,
+      "reviews": 9800,
+      "ratingAvg": 4.6,
+      "downloads": 890000,
+      "ratings": [
+        { "name": "1 star", "count": 200 },
+        { "name": "2 star", "count": 350 },
+        { "name": "3 star", "count": 1100 },
+        { "name": "4 star", "count": 3000 },
+        { "name": "5 star", "count": 5150 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app10.png",
+      "title": "Weatherly",
+      "companyName": "SkySoft",
+      "id": 10,
+      "description": "Accurate, real-time weather forecasts with radar and storm alerts.",
+      "size": 48,
+      "reviews": 18200,
+      "ratingAvg": 4.5,
+      "downloads": 2200000,
+      "ratings": [
+        { "name": "1 star", "count": 700 },
+        { "name": "2 star", "count": 1100 },
+        { "name": "3 star", "count": 2000 },
+        { "name": "4 star", "count": 5800 },
+        { "name": "5 star", "count": 8600 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app11.png",
+      "title": "MindEase",
+      "companyName": "Wellbeing Co.",
+      "id": 11,
+      "description": "A meditation and mindfulness app to help reduce stress and improve focus.",
+      "size": 75,
+      "reviews": 15700,
+      "ratingAvg": 4.8,
+      "downloads": 1900000,
+      "ratings": [
+        { "name": "1 star", "count": 200 },
+        { "name": "2 star", "count": 500 },
+        { "name": "3 star", "count": 900 },
+        { "name": "4 star", "count": 3100 },
+        { "name": "5 star", "count": 11000 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app12.png",
+      "title": "SecureVault",
+      "companyName": "DataGuard Systems",
+      "id": 12,
+      "description": "Keep your passwords, notes, and private files securely encrypted.",
+      "size": 56,
+      "reviews": 5400,
+      "ratingAvg": 4.4,
+      "downloads": 800000,
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 500 },
+        { "name": "3 star", "count": 900 },
+        { "name": "4 star", "count": 1700 },
+        { "name": "5 star", "count": 2000 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app13.png",
+      "title": "PetCare",
+      "companyName": "HappyPaws Ltd.",
+      "id": 13,
+      "description": "Manage pet health, schedule vet visits, and receive care reminders.",
+      "size": 61,
+      "reviews": 3800,
+      "ratingAvg": 4.3,
+      "downloads": 560000,
+      "ratings": [
+        { "name": "1 star", "count": 200 },
+        { "name": "2 star", "count": 400 },
+        { "name": "3 star", "count": 800 },
+        { "name": "4 star", "count": 1400 },
+        { "name": "5 star", "count": 1000 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app14.png",
+      "title": "ShopSmart",
+      "companyName": "Ecomify",
+      "id": 14,
+      "description": "Shop smarter with price comparisons, coupons, and cashback offers.",
+      "size": 88,
+      "reviews": 29400,
+      "ratingAvg": 4.6,
+      "downloads": 6300000,
+      "ratings": [
+        { "name": "1 star", "count": 800 },
+        { "name": "2 star", "count": 1300 },
+        { "name": "3 star", "count": 2700 },
+        { "name": "4 star", "count": 7800 },
+        { "name": "5 star", "count": 16800 }
+      ]
+    },
+    {
+      "image": "https://example.com/images/app15.png",
+      "title": "GameBoost",
+      "companyName": "PixelGear",
+      "id": 15,
+      "description": "Optimize device performance for gaming with real-time CPU and GPU tuning.",
+      "size": 42,
+      "reviews": 8700,
+      "ratingAvg": 4.2,
+      "downloads": 1750000,
+      "ratings": [
+        { "name": "1 star", "count": 500 },
+        { "name": "2 star", "count": 900 },
+        { "name": "3 star", "count": 1700 },
+        { "name": "4 star", "count": 2900 },
+        { "name": "5 star", "count": 3800 }
+      ]
+    }
+  ]
+  
