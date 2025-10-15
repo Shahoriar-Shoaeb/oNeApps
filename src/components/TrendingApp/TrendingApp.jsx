@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const TrendingApp = ({app}) => {
     const {image, title ,downloads, ratingAvg} = app;

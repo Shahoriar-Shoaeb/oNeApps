@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData } from 'react-router-dom';
 import TrendingApp from '../TrendingApp/TrendingApp';
 
 const TrendingApps = () => {
@@ -11,6 +11,7 @@ const TrendingApps = () => {
             {
                 trenDingAppData.map(app => <TrendingApp key={app.id} app={app}></TrendingApp>)
             }
+            <button className='border-amber-300'>Show All...</button>
         </div>
     );
 };

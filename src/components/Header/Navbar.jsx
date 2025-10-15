@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const links = <> 
         <Link to='/'><li>Home</li></Link>  
-        <Link><li>Apps</li></Link>
+        <Link to='/allApps'><li>Apps</li></Link>
         <Link><li>Installation</li></Link> 
     </>
     return (
@@ -20,7 +20,7 @@ const Navbar = () => {
                     {links}
                 </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">One@pp</a>
+                <Link to='/'>One@pp</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
