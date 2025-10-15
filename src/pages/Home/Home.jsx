@@ -1,17 +1,20 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
 import States from '../../components/States/States';
+// import { useLoaderData } from 'react-router';
 import TrendingApps from '../../components/TrendingApps/TrendingApps';
 
+
+
 const Home = () => {
+   
     return (
         <div>
             <Banner></Banner>
             <States></States>
-            <TrendingApps></TrendingApps>
-            
+            <TrendingApps ></TrendingApps>                 
         </div>
     );
 };
 
-export default Home;<h1>Hello from home.....</h1>
+export default Home;

@@ -1,9 +1,16 @@
 import React from 'react';
+import { useLoaderData } from 'react-router';
+import TrendingApp from '../TrendingApp/TrendingApp';
 
 const TrendingApps = () => {
+    const trenDingAppData = useLoaderData();
+    console.log(trenDingAppData);
     return (
-        <div>
-            <h1>Hello from TrendingApps</h1>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            
+            {
+                trenDingAppData.map(app => <TrendingApp key={app.key} app={app}></TrendingApp>)
+            }
         </div>
     );
 };
