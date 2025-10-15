@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const TrendingApp = ({key, app}) => {
+const TrendingApp = ({app}) => {
     const {image, title ,downloads, ratingAvg} = app;
-    console.log(key)
     return (
         <Link to={`/appDetails/${app.id}`}>
             <div className="card bg-base-100 w-96 shadow-sm">
