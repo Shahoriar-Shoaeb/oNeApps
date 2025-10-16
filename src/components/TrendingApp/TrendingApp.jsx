@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { MdOutlineFileDownload } from "react-icons/md";
+import { FaStar } from "react-icons/fa";
 
 const TrendingApp = ({app}) => {
     const {image, title ,downloads, ratingAvg} = app;
@@ -17,8 +19,8 @@ const TrendingApp = ({app}) => {
                     </h2>
                     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                     <div className="card-actions justify-end">
-                    <div className="badge badge-outline">{downloads}</div>
-                    <div className="badge badge-outline">{ratingAvg}</div>
+                    <div className="badge badge-outline"><MdOutlineFileDownload />{downloads}</div>
+                    <div className="badge badge-outline"><FaStar />{ratingAvg}</div>
                     </div>
                 </div>
             </div>

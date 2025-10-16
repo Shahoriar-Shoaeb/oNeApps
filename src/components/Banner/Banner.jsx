@@ -1,5 +1,7 @@
 import React from 'react';
 import bannerImage from '../../assets/hero.png';
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { FaAppStoreIos } from "react-icons/fa";
 
 const Banner = () => {
     return (
@@ -9,8 +11,8 @@ const Banner = () => {
                 <h2 className="card-title"> We Build Productive Apps </h2>
                 <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                 <div className="card-actions justify-end mx-auto">
-                <button>Google Play</button>
-                <button>App Store</button>
+                <a href='https://play.google.com/store/games?hl=en' className="btn"><IoLogoGooglePlaystore />Google Play</a>
+                <a href='https://www.apple.com/app-store/' className="btn"><FaAppStoreIos />App Store</a>
                 </div>
             </div>
             <figure>
